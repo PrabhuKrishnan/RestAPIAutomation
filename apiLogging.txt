@@ -1,0 +1,85 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Prabhu",
+    "phone_number": "9994042448",
+    "address": "salem",
+    "website": "https://prabhukrishnanphotography.com",
+    "language": "English",
+    "location": {
+        "lat": -33.334344,
+        "lng": 33.320332
+    },
+    "types": [
+        "canon",
+        "sony"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Mon, 23 May 2022 14:44:39 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "83ff041e97fee3be5f419d25f9424575",
+    "scope": "APP",
+    "reference": "4d9177e6eea915eaf26fe77581a037b54d9177e6eea915eaf26fe77581a037b5",
+    "id": "4d9177e6eea915eaf26fe77581a037b5"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=83ff041e97fee3be5f419d25f9424575
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=83ff041e97fee3be5f419d25f9424575
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 23 May 2022 14:44:41 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 234
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-33.334344",
+        "longitude": "33.320332"
+    },
+    "accuracy": "50",
+    "name": "Prabhu",
+    "phone_number": "9994042448",
+    "address": "salem",
+    "types": "canon,sony",
+    "website": "https://prabhukrishnanphotography.com",
+    "language": "English"
+}
