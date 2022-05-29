@@ -18,7 +18,7 @@ public class CreateAJsonUsingHashMap {
 		
 		ArrayList<String> data = excelData.getData("AddNewPlace","LibraryAddAPI");
 		
-		
+		System.out.println("Add Request using the HashMap");
 		Map<String,Object> libraryObject = new HashMap<String,Object>();
 		libraryObject.put("name", data.get(1));
 		libraryObject.put("isbn", data.get(2));
